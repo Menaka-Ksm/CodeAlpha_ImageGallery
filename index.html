@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Image Gallery</h1>
+        <p>Click on any image to view it in larger size</p>
+    </header>
+
+    <!-- Gallery Container -->
+    <div class="gallery-container">
+        <!-- Image 1 -->
+        <div class="gallery-image">
+            <img src="https://images.pexels.com/photos/3894796/pexels-photo-3894796.jpeg?auto=compress&cs=tinysrgb&w=400&h=400" alt="Ocean">
+        </div>
+
+        <!-- Image 2 -->
+        <div class="gallery-image">
+            <img src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400&h=400" alt="Forest">
+        </div>
+
+        <!-- Image 3 -->
+        <div class="gallery-image">
+            <img src="https://images.pexels.com/photos/3714896/pexels-photo-3714896.jpeg?auto=compress&cs=tinysrgb&w=400&h=400" alt="Vineyard Sunset">
+        </div>
+
+        <!-- Image 4 -->
+        <div class="gallery-image">
+            <img src="https://images.pexels.com/photos/2696060/pexels-photo-2696060.jpeg?auto=compress&cs=tinysrgb&w=400&h=400" alt="Architecture">
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <!-- Close button -->
+        <span class="close">&times;</span>
+        
+        <!-- Large image -->
+        <img class="popup-image" src="" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
